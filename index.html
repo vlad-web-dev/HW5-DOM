@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW5-DOM</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<section class="bg-success">
+    <div class="container d-flex flex-column justify-content-center align-items-center auth">
+        <div class="p-4 bg-white auth-wrap">
+            <form id="loginForm">
+                <div class="input-group mb-3">
+                    <input type="text" required class="form-control" aria-label="Default"
+                           placeholder="username"
+                           name="username"
+                           aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" required class="form-control" aria-label="Default"
+                           placeholder="password"
+                           name="password"
+                           aria-describedby="inputGroup-sizing-default">
+                </div>
+                <button class="btn btn-success btn-block text-uppercase" id="loginBtn">Login</button>
+            </form>
+            <div class="d-flex justify-content-center">
+                <small class="text-secondary">Not registered? <a href="" class="text-success">Create an account</a></small>
+            </div>
+        </div>
+        <pre class="text-white mt-3 result"></pre>
+    </div>
+</section>
+<script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>

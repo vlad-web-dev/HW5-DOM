@@ -1,0 +1,7 @@
+.auth {
+    height: 100vh;
+}
+.auth-wrap {
+    width: 365px;
+    box-shadow: 1px 5px 17px 0 #5f5c5c;
+}
